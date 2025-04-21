@@ -1,9 +1,8 @@
-import Image from "next/image";
+'use client';
 
-export default function Home() {
-  return (
-    <div>
+import Home from '../components/Home';
 
-    </div>
-  );
+
+export default function Page() {
+    return <Home />
 }
