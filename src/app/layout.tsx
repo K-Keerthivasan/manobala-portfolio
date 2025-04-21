@@ -14,7 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="md:flex md:h-screen">
             {/* Desktop Sidebar */}
             <div className="hidden md:block">
-                <Sidebar />
+                <Sidebar/>
             </div>
 
             {/* Mobile Top Bar */}

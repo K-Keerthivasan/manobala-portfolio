@@ -3,6 +3,9 @@
 
 'use client';
 
+
+
+
 import { useEffect, useState } from 'react';
 import { usePathname, useRouter } from 'next/navigation';
 import { MoonIcon, SunIcon } from '@heroicons/react/24/outline';
@@ -19,7 +22,15 @@ import {
 
 import { faBehance, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-const Sidebar: React.FC = () => {
+
+interface SidebarProps {
+    isOpen?: boolean;
+    onClose?: () => void;
+}
+
+
+const Sidebar: React.FC<SidebarProps> = ({ isOpen = true, onClose = () => {} }) => {
+    if (!isOpen) return null;
     const [isDarkMode, setIsDarkMode] = useState(false);
     const [isClient, setIsClient] = useState(false);
     const pathname = usePathname();
