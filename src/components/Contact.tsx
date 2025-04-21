@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { EnvelopeIcon } from '@heroicons/react/24/outline';
 
 export default function Contact() {
     return (

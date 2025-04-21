@@ -16,13 +16,11 @@ import {
 const TopDownBar = () => {
     const [isDarkMode, setIsDarkMode] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const [isClient, setIsClient] = useState(false); // Track if component is mounted on client
-    const pathname = usePathname();
+     const pathname = usePathname();
     const router = useRouter();
 
     useEffect(() => {
-        setIsClient(true); // Set to true when component mounts on client
-        const theme = localStorage.getItem('theme');
+         const theme = localStorage.getItem('theme');
         if (theme === 'dark') {
             document.documentElement.classList.add('dark');
             setIsDarkMode(true);
