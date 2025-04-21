@@ -59,7 +59,7 @@ export default function HomePage() {
                 </button>
 
                 <h1 className="text-4xl font-bold text-gray-900 dark:text-white transition-colors duration-300">
-                    Hey there! <br /> I'm Dinesh B...
+                    Hey there! <br /> I&apos;m Dinesh B...
                 </h1>
 
                 <p className="text-gray-600 dark:text-gray-400 text-base max-w-lg mx-auto">

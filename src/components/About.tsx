@@ -51,7 +51,7 @@ export default function About() {
                     <h2 className="text-2xl font-semibold mb-4">Education</h2>
                     <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed whitespace-normal overflow-visible">                        I earned my <strong>MBA in Finance</strong>, which strengthened my skills in critical thinking,
                         decision-making, and understanding user behavior from a business lens.
-                        Prior to that, I completed my <strong>Bachelor's in Commerce</strong> from Vivekananda College,
+                        Prior to that, I completed my <strong>Bachelor&#39;sin Commerce</strong> from Vivekananda College,
                         where I developed a strong foundation in business logic and analytics.
                         <br /><br />
                         My early education includes <strong>HSC from MCC School</strong> and <strong>SSLC from LMD School</strong>.
